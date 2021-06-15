@@ -1,0 +1,135 @@
+/*LIMPAR AS FORMATAÇÕES PADRÃO*/
+
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(to right, white, rgb(31, 0, 0));
+}
+
+#navegacao {
+    background: rgb(68, 0, 0);
+    border-bottom: 1px solid blanchedalmond;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+#area {
+    width: 720px;
+    margin: 0 auto;
+}
+
+#area-principal {
+    width: 720px;
+    margin: 35px auto 10px auto;
+}
+
+#logo {
+    float: left;
+}
+
+#menu {
+    float: right;
+    padding: 10px 0;
+}
+
+#postagem {
+    background: rgb(68, 0, 0);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*Formatação do menu*/
+
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+
+/*Links não visitados*/
+
+a:link {
+    color: whitesmoke;
+}
+
+
+/*Links visitados*/
+
+a:visited {
+    color: whitesmoke;
+}
+
+
+/*Links hover*/
+
+a:hover {
+    background: black;
+}
+
+
+/*Links active*/
+
+a:active {
+    color: darkgreen;
+}
+
+
+/*Classes*/
+
+.ColorLogo {
+    color: white;
+}
+
+.data-postagem {
+    font-size: 14px;
+    color: whitesmoke;
+    border-bottom: gray;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.img-postagem {
+    float: left;
+    margin: 0 10px 10px 0;
+    height: 100px;
+    width: auto;
+}
+
+.img-postagem2 {
+    float: left;
+    margin: 0 15px 14px 0;
+    height: 100px;
+    width: auto;
+}
+
+.img-postagem3 {
+    float: left;
+    margin: 0 15px 15px 0;
+    height: 100px;
+    width: auto;
+}
+
+.text-cod {
+    color: whitesmoke;
+}
+
+.span-cod {
+    border-left: 5px solid whitesmoke;
+    padding-left: 5px;
+    display: block;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+.h2titulo {
+    color: whitesmoke;
+}
